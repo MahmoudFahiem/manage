@@ -23,6 +23,12 @@ module.exports = {
         veryPaleRed: "hsl(13, 100%, 96%)",
         veryLightGray: "hsl(0, 0%, 98%)",
       },
+      backgroundImage: {
+        "simplify-section-desktop":
+          "url('/imgs/bg-simplify-section-desktop.svg')",
+        "simplify-section-mobile":
+          "url('/imgs/bg-simplify-section-mobile.svg')",
+      },
     },
   },
   plugins: [
