@@ -12,3 +12,10 @@ new Splide("#testimonials-carousel", {
     page: `splide__pagination__page w-3 h-3 border-2 border-brightRed rounded-full hover:bg-brightRed is-active:bg-brightRed`, // each button
   },
 }).mount();
+
+const menuBtn = document.querySelector("#menu-btn");
+const navMenu = document.querySelector("#nav-menu");
+
+menuBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("is-active");
+});

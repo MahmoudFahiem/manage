@@ -28,6 +28,7 @@ module.exports = {
           "url('/imgs/bg-simplify-section-desktop.svg')",
         "simplify-section-mobile":
           "url('/imgs/bg-simplify-section-mobile.svg')",
+        "tablet-pattern": "url('/imgs/bg-tablet-pattern.svg')",
       },
     },
   },
