@@ -1,3 +1,4 @@
+import "../css/main.css";
 new Splide("#testimonials-carousel", {
   type: "slide",
   rewind: true,
