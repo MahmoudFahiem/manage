@@ -1,21 +1,38 @@
 {
-  "name": "tailwind-manage-website",
+  "name": "manage",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple landing page using tailwind css",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "build": "tailwindcss -i src/input.css -o src/css/main.css",
+    "watch": "tailwindcss -i src/input.css -o src/css/main.css --watch",
+    "prod": "gulp"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mahmoud Fahiem",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-processhtml": "^1.2.0",
+    "gulp-terser": "^2.1.0",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.10",
     "tailwindcss": "^3.0.24"
   },
   "dependencies": {
     "@splidejs/splide": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudFahiem/manage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MahmoudFahiem/manage/issues"
+  },
+  "homepage": "https://github.com/MahmoudFahiem/manage#readme"
 }
